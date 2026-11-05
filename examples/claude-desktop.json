@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "sage-100-contractor": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://demo-mcp.twinn.engineering/mcp"
+      ]
+    }
+  }
+}
