@@ -1,0 +1,40 @@
+name: Bug report
+description: Something isn't working when connecting to or using the server
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please don't include access tokens, passwords, or real company data.
+  - type: input
+    id: client
+    attributes:
+      label: MCP client and version
+      placeholder: e.g. Claude Desktop 1.2.3, Cursor 2.0
+    validations:
+      required: true
+  - type: input
+    id: server
+    attributes:
+      label: Server URL
+      value: https://demo-mcp.twinn.engineering/mcp
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: Include the prompt you used and the response or error you got.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: input
+    id: when
+    attributes:
+      label: When did it happen?
+      description: Date, time and time zone. This helps us find the request in our logs.

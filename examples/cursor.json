@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "sage-100-contractor": {
+      "url": "https://demo-mcp.twinn.engineering/mcp"
+    }
+  }
+}
